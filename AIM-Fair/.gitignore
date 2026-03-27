@@ -1,0 +1,6 @@
+images/
+annotations/
+*.jpg
+*.png
+*.pth
+__pycache__/
