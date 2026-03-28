@@ -131,3 +131,17 @@ This project follows the same license as the original AIM-Fair repository.
 ##  Acknowledgement
 
 Based on the original AIM-Fair framework, with modifications for efficiency and accessibility.
+
+## Note on Results Comparison
+
+The results reported in this repository are not directly comparable 
+to the original AIM-Fair paper.
+
+Reasons:
+- Different dataset (UTKFace vs CelebA)
+- Simplified data pipeline
+- Lightweight synthetic data instead of diffusion models
+- Reduced dataset size
+
+Therefore, higher accuracy in this implementation does not indicate
+better performance, but rather differences in experimental setup.
