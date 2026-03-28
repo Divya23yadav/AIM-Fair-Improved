@@ -34,7 +34,7 @@ AIM-Fair-Lightweight/
 │
 ├── gan_generate.py           # GAN-based synthetic data 
 ├── synthetic.py              # Synthetic data utilities
-│
+├── plot_results.py
 ├── runner.sh                 # Script to run experiments
 ├── README.md                 # Project documentation
 ├── LICENSE
@@ -78,6 +78,11 @@ python main.py \
     --number-balanced-synthetic-1-1 100 \
     --top-k 55
 ```
+for Generate Graphs
+python plot_results.pyResults
+
+![Fairness](fairness_comparison.png)
+![Training](training_curve.png)
 
 ---
 
