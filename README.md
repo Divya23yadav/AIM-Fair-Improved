@@ -33,7 +33,7 @@ AIM-Fair-Lightweight/
 │
 ├── gan_generate.py           # GAN-based synthetic data (optional)
 ├── synthetic.py              # Synthetic data utilities
-│
+├── plot_results.py
 ├── runner.sh                 # Script to run experiments
 ├── README.md                 # Project documentation
 ├── LICENSE
@@ -46,7 +46,18 @@ AIM-Fair-Lightweight/
 ```bash
 pip install torch torchvision matplotlib numpy pillow
 ```
+## Quick Start
 
+```bash
+# Clone repo
+git clone https://github.com/Divya23yadav/AIM-Fair-Improved.git
+cd AIM-Fair-Improved
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run training
+bash runner.sh
 ---
 
 ##  How to Run
@@ -59,6 +70,12 @@ python main.py \
 --milestones 5 10 \
 --job-id test_run
 ```
+## for Generate Graphs
+python plot_results.pyResults
+
+![Fairness](fairness_comparison.png)
+![Training](training_curve.png)
+
 
 ---
 
